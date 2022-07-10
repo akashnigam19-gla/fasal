@@ -16,7 +16,7 @@ const LoggedIn = () => {
 
   return (
     <Container>
-        <h3>User: {authUser.email}</h3>
+        <h3>User: {authUser?.email || "Can't Find User"}</h3>
         {
           loading ?
             <Row>
