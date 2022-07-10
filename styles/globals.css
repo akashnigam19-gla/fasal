@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root{
+  --md-dark-color: #1d1d1d;
+  --dark-color: #171717;
+  --light-dark-color: #292929;
+  --yellow-color: #d4aa11;
+}
+
+html,
+body {
+  padding: 10px;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.search-container{
+  background-color: var(--md-dark-color);
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.center {
+  display: flex;
+  font-weight: 700;
+}
+
+.search-element{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+.search-element h3{
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-right: 1rem;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+.search-element .form-control{
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  border: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  outline: none;
+  color: var(--light-dark-color);
+  width: 350px;
+}
+
+.search-list {
+  position: absolute;
+  top: 200px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  /* background-color: #d4aa11; */
+  height: 60px;
+  margin: 1px;
+  width: 100%;
+  display: flex;
+  margin: auto;
+  padding: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+li:hover {
+  background-color: #c8c8c8;
+  border-radius: 10px;
+  height: 70px;
+  transition: all 0.3s ease-in-out;
+}
+
+.list-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-right: 10px;
+}
+
+.movie-title {
+  margin: auto;
+  margin-left: 0;
+}
+
+.remove-btn {
+  right: 50px;
+  position: absolute;
+  margin: auto;
+  height: 50px;
+  
+}
