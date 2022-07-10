@@ -14,6 +14,10 @@ This project is created for fasal assignment
 
 <hr>
 
+## Link of website
+```https://fasal-delta.vercel.app/```
+
+<hr>
 
 ## Task need to Follow:
 1. The application must have user authentication ( Sign In/ Sign Up )
